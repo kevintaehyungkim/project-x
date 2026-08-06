@@ -1,0 +1,8 @@
+anthropic>=0.40.0
+python-dotenv>=1.0.0
+
+# Optional but strongly recommended: without it, screenshots are uploaded at
+# full Retina resolution, which is both slow and liable to exceed the API's
+# 10 MB per-image limit. image_processing falls back gracefully if it is
+# missing, so the kit still runs.
+pillow>=10.0.0
